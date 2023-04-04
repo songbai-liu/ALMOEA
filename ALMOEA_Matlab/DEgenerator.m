@@ -1,6 +1,4 @@
 function Offspring = DEgenerator(Problem,Population,mlp)
-%  Copyright (C) 2023 Songbai Liu
-%  Songbai Liu <songbai@szu.edu.cn>
 
     %% Parameter setting
     [CR,F,proM,disM] = deal(1.0,0.5,1,20);
