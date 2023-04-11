@@ -132,10 +132,10 @@ function [clusters, class] = clustering(PopObj,cSize)
         nsize = nsize-1;
     end
 
-    for i = N:1
+    for i = N:-1:1
         if flag(i) == 1
             clusters(i) = []; 
-            for j = N:1
+            for j = N:-1:1
                 if class(j) > i
                     class(j) = class(j)-1;
                 end
